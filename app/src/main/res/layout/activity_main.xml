@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/wash"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        app:lottie_autoPlay="false"
+        app:lottie_imageAssetsFolder="images"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/animation" />
+
+    <Button
+        android:id="@+id/btnwash"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:background="#00E4FF"
+        android:text="Washing"
+        android:textColor="#FF0058"
+        android:layout_marginTop="250dp"
+        ></Button>
+
+</RelativeLayout>
